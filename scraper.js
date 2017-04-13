@@ -6,6 +6,7 @@ const test = "http://brysonkruk.com";
 module.exports = {
 	scrapeOdds : function(){
 		https.get(odds, (res) => {
+			console.log('in main scrape');
 		  console.log('statusCode:', res.statusCode);
 		  console.log('headers:', res.headers);
 
