@@ -4,7 +4,7 @@ const odds = "https://wizardofvegas.com/guides/blackjack-survey/";
 const test = "http://brysonkruk.com";
 
 
-module.export = {
+module.exports = {
 	scrapeOdds : function(){
 		https.get(odds, (res) => {
 		  console.log('statusCode:', res.statusCode);
@@ -22,7 +22,7 @@ module.export = {
 		http.get(test, (res) => {
 		  console.log('statusCode:', res.statusCode);
 		  console.log('headers:', res.headers);
-		  alert(11);
+		 
 		  res.on('data', (d) => {
 		    process.stdout.write(d);
 		  });

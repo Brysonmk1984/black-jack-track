@@ -1,3 +1,3 @@
-let scraper = require("./scraper");
+let scraper = require("./scraper.js");
 
 scraper.scrapeTest();
