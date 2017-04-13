@@ -2,7 +2,7 @@
   "name": "black-jack-track",
   "version": "1.0.0",
   "description": "Black Jack tracking tool",
-  "main": "scraper.js",
+  "main": "app.js",
   "dependencies": {
     "scrape-it": "^3.3.2",
     "tinyreq": "^3.2.2"
