@@ -1,3 +1,3 @@
 let scraper = require("./scraper.js");
-scraper.scrapeOdds();
+//scraper.scrapeOdds();
 //scraper.scrapeTest();
