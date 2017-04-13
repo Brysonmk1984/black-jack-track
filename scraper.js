@@ -3,7 +3,6 @@ const http = require('http');
 const odds = "https://wizardofvegas.com/guides/blackjack-survey/";
 const test = "http://brysonkruk.com";
 
-
 module.exports = {
 	scrapeOdds : function(){
 		https.get(odds, (res) => {
